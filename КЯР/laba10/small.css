@@ -1,0 +1,81 @@
+@media (max-width:480px){
+    .btn span{
+        position: absolute;
+        top: 48px;
+        right: 40px;
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: black;
+        transform-origin: center;
+    }
+    label>span::after{
+        position: absolute;
+        content: '';
+        bottom: 6px;
+        width: 20px;
+        height: 2px;
+        background-color: black;
+        transform-origin: center;
+        transform: translate(-10px);
+    }
+    label>span::before{
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 2px;
+        background-color: black;
+        top: 6px;
+        transform-origin: center;
+        transform: translate(-10px);
+    }
+    input:checked ~ .nav li{
+       display: block;
+    }
+    input:checked ~ label>span::after{
+        top: 0;
+        left: 3px;
+        transform: rotate(-45deg);
+    }
+
+    input:checked ~ label>span::before{
+        top: 0;
+        left: 3px;
+        transform: rotate(45deg);
+    }
+
+    input:checked ~ label>span{
+        background-color: white;
+    }
+
+    input:checked ~ .nav{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .nav{
+        visibility: none;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        padding-left: 13%;
+    }
+    .nav li{
+        display: none;
+        margin: 4px;
+        width: 90%;
+    }
+    .main{
+        flex-direction: column;
+        margin: 0;
+    }
+    .main > div {
+        width: 100%;
+    }
+
+    .galery h3{
+        color:lightcoral;
+    }
+
+    
+}

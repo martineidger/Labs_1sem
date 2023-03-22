@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.item, .box9, .box10{
+    border: 1px solid #000;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(5, 19vw);
+    grid-template-rows: repeat(4, 23vh);
+    gap: 5px;
+    text-align: center;
+    
+}
+figure{
+    margin:0;
+    padding:0;
+}
+.box9, .box10{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+img:not(.box9 img){
+    width: 160px;
+    height: auto;
+}
+
+.box9 img{
+    width: 400px;
+    height: auto;
+}

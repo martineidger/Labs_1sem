@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/xsl" href="task2.xsl"?>
+<class>
+    <item>
+        <name>Петров</name>
+        <secname>Андрей</secname>
+        <mark>7</mark>
+    </item>
+
+    <item>
+        <name>Иванов</name>
+        <secname>Ваня</secname>
+        <mark>4</mark>
+    </item>
+
+    <item>
+        <name>Вовна</name>
+        <secname>Ярослава</secname>
+        <mark>10</mark>
+    </item>
+
+    <item>
+        <name>Гиль</name>
+        <secname>Виточка</secname>
+        <mark>10</mark>
+    </item>
+
+    <item>
+        <name>Васильев</name>
+        <secname>Евгений</secname>
+        <mark>-1</mark>
+    </item>
+
+    <item>
+        <name>Мацкевич</name>
+        <secname>Влад</secname>
+        <mark>8</mark>
+    </item>
+
+    <item>
+        <name>Слесарев</name>
+        <secname>Иван</secname>
+        <mark>9</mark>
+    </item>
+
+    <item>
+        <name>Борздов</name>
+        <secname>Глеб</secname>
+        <mark>4</mark>
+    </item>
+</class>

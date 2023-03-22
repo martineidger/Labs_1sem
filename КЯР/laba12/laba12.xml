@@ -1,0 +1,21 @@
+<?xml  version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<books>
+    <head>
+        <hauthor>Author</hauthor>
+        <hname>Name of book</hname>
+    </head>
+   
+    <book>
+        <author>Jonne Rowling</author>
+        <name>Harry Potter</name>
+    </book>
+    <book>
+        <author>Oscar Wilde</author>
+        <name>Dorian Gray</name>
+    </book>
+    <book>
+        <author>Stephen King</author>
+        <name>The shining</name>
+    </book>
+</books>

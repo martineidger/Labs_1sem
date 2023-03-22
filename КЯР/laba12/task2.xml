@@ -1,0 +1,34 @@
+<?xml  version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE books [
+<!ELEMENT books (head, book)>
+<!ELEMENT head (hauthor, hname)>
+<!ELEMENT book (author, name)>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT hauthor (#PCDATA)>
+<!ELEMENT hname (#PCDATA)>
+<!ELEMENT book (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ENTITY t "-">
+]>
+<books>
+    <head>
+        <hauthor>&t; Author &t;</hauthor>
+        <hname>&t; Name of book &t;</hname>
+    </head>
+   
+    <book>
+        <author>Jonne Rowling</author>
+        <name>Harry Potter</name>
+    </book>
+    <book>
+        <author>Oscar Wilde</author>
+        <name>Dorian Gray</name>
+    </book>
+    <book>
+        <author>Stephen King</author>
+        <name>The shining</name>
+    </book>
+    
+</books>
