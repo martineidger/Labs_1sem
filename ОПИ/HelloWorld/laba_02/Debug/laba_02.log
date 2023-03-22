@@ -1,0 +1,20 @@
+﻿Сборка начата 21.09.2022 17:08:18.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабы\опи\HelloWorld\laba_02\laba_02.vcxproj" в узле 2 (целевые объекты ClCompile).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (laba_02.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+     1>InitializeBuildStatus:
+         Создание "Debug\Lab_02.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt lab02.cpp
+         lab02.cpp
+     1>Сборка проекта "D:\лабы\опи\HelloWorld\laba_02\laba_02.vcxproj" завершена (целевые объекты ClCompile).
+
+Сборка успешно завершена.
+
+       "D:\лабы\опи\HelloWorld\laba_02\laba_02.vcxproj" (целевой объект ClCompile ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (laba_02.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.67
