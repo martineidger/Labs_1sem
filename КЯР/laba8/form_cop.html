@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>3 zadanie</title>
+    <link rel="stylesheet" href="zad3.css">
+    <style>
+        *{
+            margin: 3px;
+            padding: 0;
+    
+        }
+        div:not(.glavn,.button){
+            display: flex;
+            justify-content: space-between;
+        
+        }
+        .glavn{
+            width: max-content;
+            padding: 8px;
+            color: rgba(255,255,255,1);
+            background-color: indigo;
+        }
+        .button{
+            display: flex;
+            justify-content: end;
+        }
+        #selval, #data{
+            width: 140px;
+            height: 25px;
+            margin-right: 30px;
+        }
+        .inp{
+            justify-content: flex-start;
+        }
+        p{
+        width: 170px;
+        }
+        button{
+            padding: 8px;
+            border: 1px solid navy;
+            background-color: navy;
+            box-shadow: 0 0 4px white;
+            border-radius: 6px;
+            color: aliceblue;
+        }
+        input[type="text"]:focus{
+            background-color: black;
+        }
+
+        input:not(#data, #pol){
+            border-radius: 4px;
+            background-color:rgba(255,255,255,.5);
+            box-shadow: inset  0 0 10px rgba(255,255,255, .75);
+        }
+    </style>
+</head>
+<body> 
+    <div class="glavn">
+        <h2>Регистрация постоянного клиента</h2>
+        <form action="">
+            <div>
+                <p> Фамилия:</p>
+                <input type="text" class="inp">
+            </div>
+            <div>
+                <p> Имя:</p>
+                <input type="text" class="inp">
+            </div>
+            <div>
+                <p> Отчество:</p>
+                <input type="text" class="inp">
+            </div>
+            <div>
+                <p> Ваш возраст:</p>
+                <input type="text" class="inp">
+            </div>
+            <div>
+                <p class="pol"> Пол:</p>
+                <div>
+                    <input type="radio" id="pol"> Мужской
+                    <input type="radio" id="pol"> Женский
+                </div>
+            </div>
+            <div>
+                <p> Email:</p>
+                <input type="email" class="inp">
+            </div>
+            <div>
+                <p> Страна проживания:</p>
+                <input type="text" class="inp">
+            </div>
+            <div>
+                <p> Откуда вы узнали о нас?: </p>
+                <select id="selval" class="inp">
+                    <option value=""> Выберите вариант</option>
+                    <option value=""> От друзей</option>
+                    <option value=""> Из интернета</option>
+                    <option value=""> Увидел рекламу на улице</option>
+                </select></div>
+            <div>
+            <p> Дата заполнения:</p>
+                <input type="date" class="inp" id="data">
+            </div>
+            <div class="button">
+                <button>Регистрация</button>
+                <button>Отмена</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

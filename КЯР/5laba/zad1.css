@@ -1,0 +1,14 @@
+table, td, tr, th {
+    border: 1px solid black;
+    border-spacing: 0ch;
+}
+
+.stlb{
+    background-color:rgb(208, 208, 246);
+}
+
+.stro{
+    background-color: rgb(182, 172, 246);
+}
+
+

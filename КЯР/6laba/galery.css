@@ -1,0 +1,13 @@
+.block1, .block2, .block3{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 250px;
+}
+figcaption{
+    text-align: center;
+}
+img{
+    width: 250px;
+}

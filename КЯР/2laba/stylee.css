@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+h1,h2, h3 {
+    color: crimson;
+    font-family: "Monotype Corsiva";
+}
+
+.lohn{
+    color: red;
+    font-family: Times 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.gidr{
+    color: yellow;
+    font-family: Times 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+.krak{
+    color: green;
+    font-family: Times 'Times New Roman', Times, serif;
+    font-size: 22pt;
+}
+table td, table th{
+    color: red;
+}

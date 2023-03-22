@@ -1,0 +1,64 @@
+body{
+    margin-top: 20px ;
+    margin-left: 40px ;
+    font-size: 22px;
+    background-image: url('logo.jpg');
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+span{
+    color: blueviolet;
+}
+.ab1{
+    font-size: 18px;
+    color: dimgray;
+    font-family: 'century gothic';
+}
+.ab2{
+    font-size: 19px;
+    color: maroon;
+    font-family: 'courier new';
+}
+.ab3{
+    font-size: 20px;
+    color: DarkSlateGray;
+    font-family: 'courier';
+}
+.spis ul{
+    
+    list-style-type: none ;
+    background-image: url(monster.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    
+}
+h1 {
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    color: black;
+}
+td {
+    text-align: center;
+    border: 2px solid;
+}
+tr, th{
+    border: 2px solid;
+}
+
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.img1{
+    float: left;
+    margin: 10px;
+}
+.img2{
+    float: right;
+    margin: 10px;
+}

@@ -1,0 +1,72 @@
+.displ{
+    padding: 300px;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu li{
+    width: 200px;
+    list-style: none;
+    position: relative;
+   
+    
+}
+
+.menu a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: 1px solid rgb(156, 156, 156);
+    margin: 5px;
+    padding: 10px;
+    color: rgb(40, 40, 40);
+    transition: all 0.3s;
+}
+
+.menu a:hover{
+    background-color: rgb(203, 203, 203);
+}
+
+.menu ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu li:hover ul{
+    display: block;
+}
+
+.menu>li div{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width:30px;
+    height: 20px;
+    background-image: url('facultet.png');
+    
+}
+
+.menu li a:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+.menu .li2:hover .fit{
+  
+    background-position: 0 -30px;
+}
+.menu .li3:hover .pim{
+   
+    background-position: 0 -90px;
+}
+.menu .li4:hover .htit{
+  
+    background-position: 0 -60px;
+}
